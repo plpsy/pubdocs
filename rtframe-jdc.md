@@ -4,8 +4,11 @@
 
 考虑到两个流程具有相似性，拟采用统一流程实现。
 
+<<<<<<< HEAD
 在每个core都处于running状态后，下发参数，判断依据是master根据driver上报的状态，通过taskGroup的状态层层判断，coreSatus的位置需要调整，修改proto，以前的逻辑有误。
 
+=======
+>>>>>>> 8fbe1cf3f05adfe857ea23f0d9a74faa8a01a508
 master提供下发部署信息的接口，master根据driver上报信息，生成部署信息
 
 master调用agent提供的部署信息grpc，下发部署信息。
@@ -18,7 +21,10 @@ agent向影子设备控制器下发部署信息。
 
 * 下发部署信息
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8fbe1cf3f05adfe857ea23f0d9a74faa8a01a508
 ## master提供创建任务同步接口
 
 细粒度查询方式，可结合下发部署信息功能实现。
